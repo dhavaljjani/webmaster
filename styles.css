@@ -16,10 +16,11 @@ header {
 
 nav {
     width: 100%;
-    background-color: aliceblue;
+    background-color: coral;
     list-style: none;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 #lorem {
@@ -38,7 +39,7 @@ a{
 }
 
 a:hover {
-    color: coral;
+    color: white;
     font-size: 20px;
 }
 
@@ -67,4 +68,17 @@ h2 {
 
 #header-row {
     font-weight: bold;
+}
+
+#container {
+    text-align: center;
+    color: white;
+}
+
+#center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    left: 40%;
+    font-size: 48pt;
 }
